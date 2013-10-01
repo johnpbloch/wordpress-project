@@ -2,6 +2,11 @@
 // Stolen shamelessly with some modifications from Mark Jaquith's WordPress
 // Skeleton project: https://github.com/markjaquith/WordPress-Skeleton
 
+// Load composer autoloader if it's available
+if ( file_exists( __DIR__ . '/../vendor/autoload.php' ) ) {
+	include( __DIR__ . '/../vendor/autoload.php' );
+}
+
 // ===================================================
 // Load database info and local development parameters
 // ===================================================
