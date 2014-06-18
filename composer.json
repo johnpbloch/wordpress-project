@@ -10,11 +10,11 @@
 		}
 	],
 	"require"     : {
-		"johnpbloch/wordpress": "~3.6"
+		"johnpbloch/wordpress": "~3.9"
 	},
 	"require-dev" : {
-		"wpackagist/regenerate-thumbnails": "*@dev",
-		"wpackagist/developer"            : "~1"
+		"wpackagist-plugin/regenerate-thumbnails": "*@dev",
+		"wpackagist-plugin/developer"            : "~1"
 	},
 	"extra"       : {
 		"wordpress-install-dir": "public/wp",
