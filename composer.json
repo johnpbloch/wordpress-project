@@ -14,8 +14,12 @@
 		"johnpbloch/wordpress-core-installer": "~0.2"
 	},
 	"require-dev" : {
-		"wpackagist-plugin/regenerate-thumbnails": "*@dev",
-		"wpackagist-plugin/developer"            : "~1"
+		"wpackagist-plugin/user-switching": "^1.0",
+		"wpackagist-plugin/piglatin": "^0.2.0",
+		"wpackagist-plugin/debug-bar": "^0.8.4",
+		"wpackagist-plugin/debug-bar-cron": "^0.1.3",
+		"wpackagist-plugin/debug-bar-console": "^0.3.0",
+		"wpackagist-plugin/regenerate-thumbnails": "^2.2"
 	},
 	"extra"       : {
 		"wordpress-install-dir": "public/wp",
