@@ -10,6 +10,7 @@
 		}
 	],
 	"require": {
+		"php": ">=5.6",
 		"johnpbloch/wordpress-core": "@stable",
 		"johnpbloch/wordpress-core-installer": "~0.2",
 		"vlucas/phpdotenv": "^2.4",
