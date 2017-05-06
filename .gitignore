@@ -1,5 +1,4 @@
 # Ignore composer generated files and directories
-composer.lock
 vendor
 public/wp
 public/content/plugins/*
