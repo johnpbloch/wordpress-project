@@ -10,7 +10,8 @@
 		}
 	],
 	"require"     : {
-		"johnpbloch/wordpress": "~4.1"
+		"johnpbloch/wordpress-core": "@stable",
+		"johnpbloch/wordpress-core-installer": "~0.2"
 	},
 	"require-dev" : {
 		"wpackagist-plugin/regenerate-thumbnails": "*@dev",
