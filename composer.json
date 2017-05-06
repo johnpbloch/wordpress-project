@@ -1,19 +1,19 @@
 {
-	"name"        : "johnpbloch/wordpress-project",
-	"description" : "An out-of-the-box composer-powered WordPress package inspired by Mark Jaquith's WordPress Skeleton",
-	"type"        : "project",
-	"license"     : "MIT",
+	"name": "johnpbloch/wordpress-project",
+	"description": "An out-of-the-box composer-powered WordPress package inspired by Mark Jaquith's WordPress Skeleton",
+	"type": "project",
+	"license": "MIT",
 	"repositories": [
 		{
 			"type": "composer",
-			"url" : "https://wpackagist.org"
+			"url": "https://wpackagist.org"
 		}
 	],
-	"require"     : {
+	"require": {
 		"johnpbloch/wordpress-core": "@stable",
 		"johnpbloch/wordpress-core-installer": "~0.2"
 	},
-	"require-dev" : {
+	"require-dev": {
 		"wpackagist-plugin/user-switching": "^1.0",
 		"wpackagist-plugin/piglatin": "^0.2.0",
 		"wpackagist-plugin/debug-bar": "^0.8.4",
@@ -21,12 +21,12 @@
 		"wpackagist-plugin/debug-bar-console": "^0.3.0",
 		"wpackagist-plugin/regenerate-thumbnails": "^2.2"
 	},
-	"extra"       : {
+	"extra": {
 		"wordpress-install-dir": "public/wp",
-		"installer-paths"      : {
-			"public/content/plugins/{$name}"   : ["type:wordpress-plugin"],
+		"installer-paths": {
+			"public/content/plugins/{$name}": ["type:wordpress-plugin"],
 			"public/content/mu-plugins/{$name}": ["type:wordpress-muplugin"],
-			"public/content/themes/{$name}"    : ["type:wordpress-theme"]
+			"public/content/themes/{$name}": ["type:wordpress-theme"]
 		}
 	}
 }
