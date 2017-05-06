@@ -29,5 +29,7 @@
 			"public/content/mu-plugins/{$name}": ["type:wordpress-muplugin"],
 			"public/content/themes/{$name}": ["type:wordpress-theme"]
 		}
-	}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
