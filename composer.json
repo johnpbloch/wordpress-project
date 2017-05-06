@@ -11,7 +11,8 @@
 	],
 	"require": {
 		"johnpbloch/wordpress-core": "@stable",
-		"johnpbloch/wordpress-core-installer": "~0.2"
+		"johnpbloch/wordpress-core-installer": "~0.2",
+		"vlucas/phpdotenv": "^2.4"
 	},
 	"require-dev": {
 		"wpackagist-plugin/user-switching": "^1.0",
