@@ -31,6 +31,16 @@ foreach ( $_SERVER as $key => $value ) {
 	}
 }
 
+// ========================
+// Custom Content Directory
+// ========================
+if ( ! defined( 'WP_CONTENT_DIR' ) ) {
+	define( 'WP_CONTENT_DIR', __DIR__ . '/content' );
+}
+if ( ! defined( 'WP_CONTENT_URL' ) ) {
+	define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
+}
+
 // ===========
 // Hide errors
 // ===========
