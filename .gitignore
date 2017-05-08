@@ -1,3 +1,7 @@
+# Ignore sensitive and user files
+.env
+docker-compose.override.yml
+
 # Ignore composer generated files and directories
 vendor
 public/wp
