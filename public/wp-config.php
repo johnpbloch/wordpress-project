@@ -24,7 +24,7 @@ foreach ( $_SERVER as $key => $value ) {
 		$memcached_servers = json_decode( env( $key ) );
 	} elseif ( 'WP_PREFIX' === $key ) {
 		global $table_prefix;
-		$table_prefix = $value;
+		$table_prefix = env( $key );
 	} elseif ( 'WPMS_BASE' === $key ) {
 		global $base;
 		$base = env( $key );
