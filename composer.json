@@ -10,7 +10,7 @@
 		}
 	],
 	"require"     : {
-		"johnpbloch/wordpress": "~4.1"
+		"johnpbloch/wordpress": "~5.2"
 	},
 	"require-dev" : {
 		"wpackagist-plugin/regenerate-thumbnails": "*@dev",
