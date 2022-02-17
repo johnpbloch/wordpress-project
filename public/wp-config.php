@@ -19,7 +19,7 @@ unset( $dotenv );
 collect( $_ENV )->keys()
 	->filter( fn( $k ) => starts_with( $k, 'WPC_' ) )
 	->map( fn( $k ) => substr( $k, 4 ) )
-	->each( fn( $k ) => defined( $k ) || define( $k, env( $k ) ) );
+	->each( fn( $k ) => defined( $k ) || define( $k, env( "WPC_$k" ) ) );
 
 if ( ! env( 'ALLOW_INSECURE', false ) ) {
 	$_SERVER['HTTPS']          = 'on';
