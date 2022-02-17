@@ -6,6 +6,11 @@ public/content/plugins/*
 public/content/themes/*
 public/content/mu-plugins/*
 
+# Ignore configuration files, etc.
+/.env
+/local/
+/memcached.php
+
 # If you have a plugin, theme, or mu-plugin that you really do want to put into
 # version control, add an exception here. Exceptions will look like this:
 #   !public/content/plugins/plugin-folder
