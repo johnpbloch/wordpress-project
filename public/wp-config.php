@@ -11,9 +11,9 @@ if ( file_exists( __DIR__ . '/../vendor/autoload.php' ) ) {
 }
 
 $dotenv = Dotenv::createImmutable( __DIR__ . '/../' );
+$dotenv->load();
 $dotenv->required( [ 'WPC_DB_HOST', 'WPC_DB_NAME', 'WPC_DB_USER', 'WPC_DB_PASSWORD' ] );
 $dotenv->ifPresent( 'ALLOW_INSECURE' )->isBoolean();
-$dotenv->load();
 unset( $dotenv );
 
 collect( $_ENV )->keys()
